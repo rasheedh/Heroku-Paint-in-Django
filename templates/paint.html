@@ -1,5 +1,4 @@
 
-
 <html>
 <head>
 <style type="text/css">
@@ -352,14 +351,13 @@ body
 	}
 
   function go(){
-   filename=document.getElementById("name").value
-   if(filename.value=="")
-alert("No files");
-else{
-document.location.href="/"+filename;
-
-}
-  }	
+   	filename=document.getElementById("name").value
+   	if(filename.value=="")
+	alert("No files");
+	else{
+	document.location.href="/"+filename;
+		}
+ 	 }	
 
 	function draw(){
 		for(i in wholedata){
